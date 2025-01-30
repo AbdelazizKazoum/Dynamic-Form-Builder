@@ -1,4 +1,4 @@
-import { cn } from "@/libs/utils";
+import { cn } from "@/lib/utils";
 
 // /app/concours/loading.tsx
 export default function Loading({ className }: { className?: string }) {
