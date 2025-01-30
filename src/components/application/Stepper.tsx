@@ -9,6 +9,7 @@ import { useRouter } from "next/navigation";
 import Loading from "../Loading";
 import { Loader } from "lucide-react";
 import { getDictionary } from "@/utils/getDictionary";
+import { CandidatureForm } from "./CandidatureForm";
 
 const { useStepper, steps } = defineStepper(
   {
@@ -146,7 +147,12 @@ function Stepper({
       <div className="container mx-auto">
         <div className="w-full  border border-gray-200 p-5 ">
           {stepper.switch({
-            description: () => <div> first step </div>,
+            description: () => (
+              <div>
+                {" "}
+                <CandidatureForm />{" "}
+              </div>
+            ),
             attachment: () => <div>step 2</div>,
             verification: () => <div> step 3</div>,
           })}

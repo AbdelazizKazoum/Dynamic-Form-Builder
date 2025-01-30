@@ -11,7 +11,8 @@ const JobOfferPosting = async ({
   searchParams: { section: string };
   params: { lang: Locale };
 }) => {
-  const dictionary = await getDictionary(params.lang);
+  const { lang: locale } = await params;
+  const dictionary = await getDictionary(locale);
 
   return (
     <div className="max-w-screen-2xl mt-24 pb-24 px-4 sm:px-8 xl:px-16 mx-auto">
@@ -21,7 +22,7 @@ const JobOfferPosting = async ({
           description={dictionary["candidature"].description}
         />
         <Separator className="my-6" />
-        <Stepper locale={params.lang} dictionary={dictionary} />
+        <Stepper locale={locale} dictionary={dictionary} />
       </div>
     </div>
   );
