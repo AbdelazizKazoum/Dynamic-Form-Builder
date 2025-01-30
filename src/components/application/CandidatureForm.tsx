@@ -71,11 +71,11 @@ export function CandidatureForm() {
               key={index}
               control={form.control}
               name="username"
-              render={({ field }) => (
+              render={({ el }) => (
                 <FormItem>
-                  <FormLabel>Username</FormLabel>
+                  <FormLabel>{field.label}</FormLabel>
                   <FormControl>
-                    <Input placeholder="shadcn" {...field} />
+                    <Input placeholder={field.placeholder} {...el} />
                   </FormControl>
                   <FormDescription>
                     This is your public display name.
