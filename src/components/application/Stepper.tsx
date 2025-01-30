@@ -62,11 +62,10 @@ function Stepper({
   // Use state
   const [loading, setLoading] = React.useState(true);
   const [sending, setSending] = React.useState(false);
-  const [showModal, setShowModal] = React.useState(false); // State to control modal visibility
 
   // Hooks
   const stepper = useStepper();
-  const formRef = React.useRef<HTMLButtonElement>(null);
+  // const formRef = React.useRef<HTMLButtonElement>(null);
   const router = useRouter();
 
   React.useEffect(() => {
@@ -84,12 +83,12 @@ function Stepper({
     setSending(false);
   };
 
-  const submitAttachmentForm = () => {
-    if (formRef.current) {
-      // Trigger form submission in the child component
-      formRef.current.click();
-    }
-  };
+  // const submitAttachmentForm = () => {
+  //   if (formRef.current) {
+  //     // Trigger form submission in the child component
+  //     formRef.current.click();
+  //   }
+  // };
 
   if (loading)
     return (
@@ -144,55 +143,53 @@ function Stepper({
         </nav>
       </div>
 
-      {!showModal && (
-        <div className="container mx-auto">
-          <div className="w-full  border border-gray-200 p-5 ">
-            {stepper.switch({
-              description: () => <div> first step </div>,
-              attachment: () => <div>step 2</div>,
-              verification: () => <div> step 3</div>,
-            })}
-          </div>
-
-          {!stepper.isLast ? (
-            <div className="flex justify-end gap-4 mt-10 ">
-              <Button
-                size="lg"
-                onClick={() => {
-                  stepper.next();
-                }}
-              >
-                {stepper.isLast ? "Terminer" : dictionary.stepper.continue}
-              </Button>
-              <Button
-                variant="secondary"
-                onClick={stepper.prev}
-                disabled={stepper.isFirst}
-                size="lg"
-              >
-                {dictionary.stepper.back}
-              </Button>
-            </div>
-          ) : (
-            <div className="flex justify-end gap-4 mt-10 ">
-              <Button size="lg" disabled={sending} onClick={submitData}>
-                {sending ? (
-                  <Loader className="animate-spin mr-2 h-4 w-4" />
-                ) : null}
-                {dictionary.stepper.submit}
-              </Button>
-              <Button
-                variant="secondary"
-                onClick={stepper.prev}
-                disabled={stepper.isFirst}
-                size="lg"
-              >
-                {dictionary.stepper.back}
-              </Button>
-            </div>
-          )}
+      <div className="container mx-auto">
+        <div className="w-full  border border-gray-200 p-5 ">
+          {stepper.switch({
+            description: () => <div> first step </div>,
+            attachment: () => <div>step 2</div>,
+            verification: () => <div> step 3</div>,
+          })}
         </div>
-      )}
+
+        {!stepper.isLast ? (
+          <div className="flex justify-end gap-4 mt-10 ">
+            <Button
+              size="lg"
+              onClick={() => {
+                stepper.next();
+              }}
+            >
+              {stepper.isLast ? "Terminer" : dictionary.stepper.continue}
+            </Button>
+            <Button
+              variant="secondary"
+              onClick={stepper.prev}
+              disabled={stepper.isFirst}
+              size="lg"
+            >
+              {dictionary.stepper.back}
+            </Button>
+          </div>
+        ) : (
+          <div className="flex justify-end gap-4 mt-10 ">
+            <Button size="lg" disabled={sending} onClick={submitData}>
+              {sending ? (
+                <Loader className="animate-spin mr-2 h-4 w-4" />
+              ) : null}
+              {dictionary.stepper.submit}
+            </Button>
+            <Button
+              variant="secondary"
+              onClick={stepper.prev}
+              disabled={stepper.isFirst}
+              size="lg"
+            >
+              {dictionary.stepper.back}
+            </Button>
+          </div>
+        )}
+      </div>
     </div>
   );
 }
