@@ -1,0 +1,338 @@
+{
+  "login": {
+    "title": "تسجيل الدخول ",
+    "description": "أدخل بيانات الاعتماد الخاصة بك للوصول إلى حسابك بأمان.",
+    "emailPlaceholder": "البريد الإلكتروني",
+    "passwordPlaceholder": "كلمة المرور",
+    "submitButton": {
+      "default": "تسجيل الدخول",
+      "submitting": "جارٍ الاتصال..."
+    },
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "noAccountText": "ليس لديك حساب؟",
+    "registerLink": "اشترك"
+  },
+
+  "register": {
+    "title": "التسجيل",
+    "description": "أدخل بريدك الإلكتروني لاستلام رمز التحقق.",
+    "username": "اسم المستخدم",
+    "email": "البريد الإلكتروني",
+    "submitButton": "إرسال رمز التحقق",
+    "error": "رسالة خطأ",
+    "success": "الرسالة المعروضة عند النجاح",
+    "loginLink": "هل لديك حساب ؟"
+  },
+  "resetPasswordPage": {
+    "title": "إعادة تعيين كلمة المرور",
+    "paragraph": "أدخل بريدك الإلكتروني لتلقي رابط إعادة التعيين!",
+    "error": "رسالة خطأ",
+    "success": "الرسالة المعروضة عند النجاح",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "submitButton": {
+      "default": "إرسال رابط إعادة التعيين",
+      "loading": "جاري الإرسال..."
+    },
+    "successMessage": "تم إرسال رابط إعادة التعيين إلى بريدك الإلكتروني.",
+    "errorMessage": "خطأ في إرسال رابط إعادة التعيين. يرجى المحاولة مرة أخرى.",
+    "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+    "loginLink": "تسجيل الدخول"
+  },
+  "updatePasswordForm": {
+    "pageTitle": "إعادة تعيين كلمة المرور",
+    "greetingMessage1": "مرحباً",
+    "greetingMessage2": "، يرجى إعادة تعيين كلمة المرور الخاصة بك للوصول إلى حسابك.",
+
+    "passwordPlaceholder": "أدخل كلمة المرور الجديدة",
+    "confirmPasswordPlaceholder": "أكد كلمة المرور الجديدة",
+    "submitButton": {
+      "default": "تحديث كلمة المرور",
+      "loading": "جاري التحديث..."
+    },
+    "successMessage": "تم تحديث كلمة المرور بنجاح.",
+    "errorMessage": "خطأ في تحديث كلمة المرور. يرجى المحاولة مرة أخرى."
+  },
+
+  "backToHome": "الرجوع إلى الموقع",
+
+  "createPasswordForm": {
+    "pageTitle": "إنشاء كلمة مرور",
+    "greetingMessage1": "مرحباً ",
+    "greetingMessage2": "، يرجى إنشاء كلمة مرور لحسابك.",
+    "passwordPlaceholder": "أدخل كلمة المرور الجديدة",
+    "confirmPasswordPlaceholder": "أكد كلمة المرور الجديدة",
+    "submitButton": {
+      "default": "إنشاء كلمة المرور",
+      "loading": "جاري الإنشاء..."
+    },
+    "successMessage": "تم إنشاء كلمة المرور بنجاح.",
+    "errorMessage": "حدث خطأ أثناء إنشاء كلمة المرور. يرجى المحاولة مرة أخرى.",
+    "alreadyHaveAccountMessage": "هل لديك حساب بالفعل؟",
+    "loginLinkText": "تسجيل الدخول"
+  },
+
+  "buttons": {
+    "save": "حفظ",
+    "submit": "إرسال",
+    "cancel": "إلغاء",
+    "send": "إرسال",
+    "apply": "تقديم",
+    "details": "تفاصيل",
+    "loading": "جاري التحميل...",
+    "validate": "تأكيد"
+  },
+  "status": {
+    "draft": "مسودة",
+    "submitted": "تم الإرسال",
+    "accepted": "مقبول",
+    "rejected": "مرفوض"
+  },
+  "notifications": {
+    "success": "تم حفظ الطلب بنجاح.",
+    "error": "حدث خطأ أثناء معالجة الطلب."
+  },
+  "stepper": {
+    "next": "التالي",
+    "previous": "السابق",
+    "continue": "استمرار",
+    "back": "رجوع",
+    "submit": "إرسال البيانات"
+  },
+  "userDropdown": {
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "signOut": "تسجيل الخروج"
+  },
+
+  "header": {
+    "Connexion": "تسجيل الدخول"
+  },
+  "concours": {
+    "title": "إعلانات المسابقات",
+    "description": "اطلع على أحدث إعلانات المسابقات وتقدم للفرص التي تتناسب مع ملفك الشخصي.",
+    "publishedOn": "نشر في",
+    "deadline": "آخر أجل للتقديم",
+    "details": "التفاصيل",
+    "apply": "قدم الطلب"
+  },
+  "hero": {
+    "title": "مرحبًا بكم في منصة التوظيف.",
+    "description": "منصة توظيف مخصصة لقطاع التعليم العالي والبحث العلمي والابتكار.",
+    "button": "ابدأ الآن",
+    "videoText": "فيديو تعليمي: نشر عرض عمل",
+    "stats": {
+      "jobs": "عروض العمل",
+      "candidates": "المرشحون",
+      "interviews": "المقابلات المخطط لها"
+    }
+  },
+  "contact": {
+    "title": "اتصل بنا",
+    "description": "هل لديك أسئلة أو تحتاج إلى مساعدة؟ فريقنا هنا لمساعدتك. لا تتردد في الاتصال بنا عبر النموذج أدناه أو من خلال وسائل الاتصال الموضحة.",
+    "detailsTitle": "معلومات الاتصال الخاصة بنا",
+    "address": "123 شارع المؤسسة، باريس، فرنسا",
+    "phone": "+33 1 23 45 67 89",
+    "email": "contact@yourwebsite.com",
+    "ctaTitle": "ابق على اتصال",
+    "ctaDescription": "اشترك في النشرة الإخبارية الخاصة بنا لتلقي التحديثات والعروض الخاصة مباشرة في بريدك الوارد.",
+    "ctaButton": "اشترك في النشرة الإخبارية",
+    "form": {
+      "labels": {
+        "name": "اسم المستخدم",
+        "email": "عنوان البريد الإلكتروني",
+        "message": "الرسالة"
+      },
+      "placeholders": {
+        "name": "أدخل اسمك",
+        "email": "أدخل بريدك الإلكتروني",
+        "message": "أدخل رسالتك"
+      },
+      "button": "إرسال"
+    }
+  },
+  "candidature": {
+    "title": "بوابة تقديم الطلبات",
+    "description": "قم بإنشاء ملف تعريفك الشخصي وقدم الطلبات للوظائف التي تتناسب مع مهاراتك وخبراتك.",
+    "sections": {
+      "personalInfo": {
+        "title": "المعلومات الشخصية",
+        "description": "قم بتوفير معلوماتك الشخصية لإكمال ملفك الشخصي."
+      },
+      "InfoProfessionnelles": {
+        "title": "المعلومات المهنية",
+        "description": "قم بتفصيل خبراتك المهنية ومهاراتك والمؤهلات.",
+        "important_information_title": "معلومات هامة",
+        "important_information_message": "قم بتقديم جميع مؤهلاتك، بما في ذلك اللغات والشهادات والمهارات، لزيادة فرصك. اضغط على تأكيد عند الانتهاء لتأكيد معلوماتك.",
+        "confirm_title": "تأكيد التحقق",
+        "confirm_message": "هل أنت متأكد أنك تريد التحقق من معلوماتك المهنية؟ هذا الإجراء لا يمكن التراجع عنه."
+      },
+      "education": "التعليم",
+      "experience": "الخبرات",
+      "skills": "المهارات",
+      "applications": "الطلبات المقدمة"
+    },
+    "actions": {
+      "save": "حفظ",
+      "submit": "إرسال",
+      "cancel": "إلغاء"
+    },
+    "status": {
+      "draft": "مسودة",
+      "submitted": "تم الإرسال",
+      "accepted": "تم القبول",
+      "rejected": "تم الرفض"
+    },
+    "notifications": {
+      "success": "تم حفظ الطلب بنجاح.",
+      "error": "حدث خطأ أثناء معالجة الطلب."
+    }
+  },
+  "footer": {
+    "description": "هي منصة توظيف مكرسة لتبسيط عملية التقديم للمرشحين والشركات.",
+    "copyright": "©{new Date().getFullYear()} -",
+    "poweredBy": "مدعومة من عبد العزيز كزوم",
+    "navigationLinks": {
+      "product": {
+        "title": "المنتج",
+        "download": "تحميل",
+        "pricing": "التسعير",
+        "locations": "المواقع",
+        "servers": "الخوادم",
+        "countries": "الدول",
+        "blog": "مدونة"
+      },
+      "engagement": {
+        "title": "الالتزام",
+        "why": "لماذا تعتبر هذه منصة توظيف؟",
+        "faq": "الأسئلة الشائعة",
+        "tutorials": "الدروس التعليمية",
+        "aboutUs": "معلومات عنا",
+        "privacyPolicy": "سياسة الخصوصية",
+        "termsOfUse": "شروط الاستخدام"
+      },
+      "opportunities": {
+        "title": "الفرص",
+        "affiliation": "الانضمام",
+        "becomePartner": "كن شريكًا"
+      }
+    }
+  },
+  "profilePage": {
+    "header": {
+      "title": "مساحة المستخدم",
+      "subtitle": "قم بإدارة إعدادات حسابك."
+    },
+    "sidebar": {
+      "navItems": [
+        { "title": "الحساب", "href": "/profile?section=compte" },
+        { "title": "طلباتي", "href": "/profile?section=candidatures" },
+        {
+          "title": "المعلومات الشخصية",
+          "href": "/profile?section=info-personnelles"
+        },
+        {
+          "title": "المؤهلات والخبرات",
+          "href": "/profile?section=info-professionnelles"
+        }
+      ]
+    },
+    "sections": {
+      "compte": {
+        "title": "الحساب",
+        "subtitle": "هذا هو الاسم الذي سيراه الآخرون على الموقع.",
+        "form": {
+          "fields": {
+            "username": {
+              "label": "اسم المستخدم",
+              "placeholder": "shadcn",
+              "description": "هذا هو الاسم الذي يظهر علناً. يمكن أن يكون اسمك الحقيقي أو اسم مستعار."
+            },
+            "email": {
+              "label": "البريد الإلكتروني",
+              "placeholder": "اختر بريدًا إلكترونيًا تم التحقق منه للعرض"
+            },
+            "bio": {
+              "label": "السيرة الذاتية",
+              "placeholder": "أخبرنا قليلاً عن نفسك",
+              "description": "يمكنك مشاركة بعض المعلومات عن نفسك، مثل اهتماماتك."
+            }
+          },
+          "button": {
+            "submit": "تحديث الملف الشخصي",
+            "loading": "جارٍ التحميل..."
+          },
+          "messages": {
+            "success": "تم تحديث الملف الشخصي بنجاح",
+            "error": "حدث خطأ ما، يرجى المحاولة لاحقاً"
+          }
+        }
+      },
+      "candidatures": {
+        "title": "طلباتي",
+        "description": "قائمة الطلبات المقدمة للوظائف التي تقدمت لها.",
+        "tableHeaders": {
+          "id": "المعرف",
+          "grade": "الدرجة",
+          "etablissment": "المؤسسة",
+          "specialite": "التخصص",
+          "recuCandidature": "تاريخ استلام الطلب",
+          "dateLimiteDepot": "آخر موعد للتقديم",
+          "dateConcours": "تاريخ المباراة",
+          "lieuConcours": "مكان المباراة",
+          "statut": "الحالة"
+        },
+        "statuses": {
+          "verification": "قيد التحقق",
+          "recevable": "مقبول",
+          "nonRecevable": "غير مقبول"
+        },
+        "importantInfo": {
+          "title": "معلومات مهمة",
+          "verification": {
+            "title": "قيد التحقق:",
+            "description": "طلبك قيد التحقق الإداري لضمان توافق المستندات (الشهادة، معادلة الشهادات الأجنبية، العمر، إلخ)."
+          },
+          "recevable": {
+            "title": "مقبول:",
+            "description": "تم قبول طلبك إداريًا للانتقال إلى المرحلة الأولى.",
+            "details": {
+              "teaching": "بالنسبة لمنصب أستاذ باحث: طلبك مقبول إداريًا وينتقل إلى التقييم الأكاديمي من قبل لجنة الامتحان.",
+              "technical": "بالنسبة للوظائف الإدارية والتقنية: طلبك مقبول وينتقل إلى الامتحانات الكتابية. يمكنك الاطلاع على تفاصيل المكان والوقت على موقع التوظيف العمومي."
+            }
+          },
+          "nonRecevable": {
+            "title": "غير مقبول:",
+            "description": "تم رفض طلبك إداريًا. قد يكون طلبك غير مكتمل أو لا يتطابق مع المعايير المطلوبة."
+          }
+        },
+        "noApplications": "لا توجد طلبات متاحة الآن"
+      },
+      "info-personnelles": {
+        "title": "المعلومات الشخصية",
+        "description": "عرض التفاصيل الشخصية التي قمت بتقديمها."
+      },
+      "info-professionnelles": {
+        "title": "المؤهلات والخبرات",
+        "description": "عرض المؤهلات الأكاديمية، الخبرات المهنية، والمهارات التي قدمتها مسبقًا."
+      }
+    }
+  },
+  "steps": {
+    "title": "الخطوات للتقديم على وظيفة",
+    "subtitle": "اتبع هذه الخطوات البسيطة لتقديم طلبك وتتبع تقدمه عبر الإنترنت."
+  },
+  "application": {
+    "noOfferSelected": " لم يتم تحديد أي عرض أو إعلان.",
+    "city": " المدينة : ",
+    "department": "القسم:",
+    "candidatesNumber": " عدد المرشحين المطلوب :",
+    "description": "الوصف :",
+    "personalInformation": "المعلومات الشخصية",
+    "qualificationsExperiences": "المؤهلات/الخبرات",
+    "modal": {
+      "title": "يرجى إكمال طلبك",
+      "description": "قبل التقدم لوظيفة، يرجى ملء جميع معلوماتك والتحقق منها.",
+      "continue": "متابعة"
+    }
+  }
+}

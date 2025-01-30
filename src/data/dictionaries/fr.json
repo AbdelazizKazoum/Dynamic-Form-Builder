@@ -1,0 +1,326 @@
+{
+  "login": {
+    "title": "Connectez-vous",
+    "description": "Entrez vos identifiants pour accéder à votre compte en toute sécurité.",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Mot de passe",
+    "submitButton": {
+      "default": "Se connecter",
+      "submitting": "Connexion..."
+    },
+    "forgotPassword": "Mot de passe oublié ?",
+    "noAccountText": "Vous n'avez pas de compte ?",
+    "registerLink": "S'inscrire"
+  },
+  "register": {
+    "title": "Inscription",
+    "description": "Entrez votre email pour recevoir un code de vérification !",
+    "username": "Nom d'utilisateur",
+    "email": "Email",
+    "submitButton": "Envoyer le code de vérification",
+    "error": "Message d'erreur",
+    "success": "Message affiché après succès",
+    "loginLink": "Vous avez déjà un compte ?"
+  },
+  "resetPasswordPage": {
+    "title": "Réinitialiser le mot de passe",
+    "paragraph": "Entrez votre email pour recevoir un lien de réinitialisation !",
+    "error": "Message d'erreur",
+    "success": "Message affiché après succès",
+    "emailPlaceholder": "Entrez votre email",
+    "submitButton": {
+      "default": "Envoyer le lien de réinitialisation",
+      "loading": "Envoi en cours.."
+    },
+    "successMessage": "Un lien de réinitialisation a été envoyé à votre email.",
+    "errorMessage": "Erreur lors de l'envoi du lien de réinitialisation. Veuillez réessayer.",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "loginLink": "Se connecter"
+  },
+
+  "updatePasswordForm": {
+    "pageTitle": "Réinitialiser votre mot de passe",
+    "greetingMessage1": "Bonjour",
+    "greetingMessage2": ", Veuillez réinitialiser votre mot de passe pour accéder à votre compte.",
+    "passwordPlaceholder": "Entrez votre nouveau mot de passe",
+    "confirmPasswordPlaceholder": "Confirmez votre nouveau mot de passe",
+    "submitButton": {
+      "default": "Mettre à jour le mot de passe",
+      "loading": "Mise à jour en cours..."
+    },
+    "successMessage": "Votre mot de passe a été mis à jour avec succès.",
+    "errorMessage": "Erreur lors de la mise à jour du mot de passe. Veuillez réessayer."
+  },
+  "createPasswordForm": {
+    "pageTitle": "Créer un mot de passe",
+    "greetingMessage1": "Bonjour",
+    "greetingMessage2": ", veuillez créer un mot de passe pour votre compte.",
+    "passwordPlaceholder": "Entrez un nouveau mot de passe",
+    "confirmPasswordPlaceholder": "Confirmez le nouveau mot de passe",
+    "submitButton": {
+      "default": "Créer un mot de passe",
+      "loading": "Création en cours..."
+    },
+    "successMessage": "Mot de passe créé avec succès.",
+    "errorMessage": "Erreur lors de la création du mot de passe. Veuillez réessayer.",
+    "alreadyHaveAccountMessage": "Vous avez déjà un compte ?",
+    "loginLinkText": "Se connecter"
+  },
+
+  "backToHome": "Retour au site web",
+
+  "buttons": {
+    "save": "Enregistrer",
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "send": "Envoyer",
+    "apply": "Appliquer",
+    "details": "Détails",
+    "loading": "Chargement...",
+    "validate": "Valider"
+  },
+  "status": {
+    "draft": "Brouillon",
+    "submitted": "Soumis",
+    "accepted": "Accepté",
+    "rejected": "Rejeté"
+  },
+  "notifications": {
+    "success": "La candidature a été enregistrée avec succès.",
+    "error": "Une erreur s'est produite lors du traitement de la candidature."
+  },
+  "stepper": {
+    "next": "Suivant",
+    "previous": "Précédent",
+    "continue": "Continuer",
+    "back": "Retour",
+    "submit": "Soumettre les données"
+  },
+
+  "userDropdown": {
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "signOut": "Se déconnecter"
+  },
+
+  "header": {
+    "Connexion": "Connexion"
+  },
+  "concours": {
+    "title": "Annonces de Concours",
+    "description": "Consultez les dernières annonces de concours et postulez aux offres qui correspondent à votre profil.",
+    "publishedOn": "Publié le",
+    "deadline": "Dépôt avant",
+    "details": "Détails",
+    "apply": "Postuler"
+  },
+  "hero": {
+    "title": "Bienvenue Sur La Plateforme de recrutement.",
+    "description": "Plateforme de recrutement dédiée au secteur de l'Enseignement Supérieur, de la Recherche Scientifique et de l'Innovation.",
+    "button": "Lancez-vous",
+    "videoText": "Tutoriel Vidéo : Publier une Offre",
+    "stats": {
+      "jobs": "Offres d'emploi",
+      "candidates": "Candidats",
+      "interviews": "Entretiens planifiés"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Vous avez des questions ou besoin d'aide ? Notre équipe est là pour vous répondre. N'hésitez pas à nous contacter via le formulaire ci-dessous ou par les moyens indiqués.",
+    "detailsTitle": "Nos coordonnées",
+    "address": "123 Rue de l'Entreprise, Paris, France",
+    "phone": "+33 1 23 45 67 89",
+    "email": "contact@votresite.com",
+    "ctaTitle": "Restez connecté",
+    "ctaDescription": "Abonnez-vous à notre newsletter pour recevoir des mises à jour et des offres spéciales directement dans votre boîte de réception.",
+    "ctaButton": "S'abonner à la newsletter",
+    "form": {
+      "labels": {
+        "name": "Nom d'utilisateur",
+        "email": "Adresse e-mail",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "Entrez votre nom",
+        "email": "Entrez votre email",
+        "message": "Entrez votre message"
+      },
+      "button": "Envoyer"
+    }
+  },
+  "candidature": {
+    "title": "Portail de Candidature",
+    "description": "Créez votre profil et postulez aux offres d'emploi correspondant à vos compétences et expériences.",
+    "sections": {
+      "personalInfo": {
+        "title": "Informations Personnelles",
+        "description": "Fournissez vos informations personnelles pour compléter votre profil."
+      },
+      "InfoProfessionnelles": {
+        "title": "Informations Professionnelles",
+        "description": "Détaillez vos expériences professionnelles, compétences, et qualifications.",
+        "important_information_title": "Informations Importantes",
+        "important_information_message": "Saisissez toutes vos qualifications, y compris les langues, diplômes et compétences, pour maximiser vos chances. Cliquez sur Valider une fois terminé pour confirmer vos informations.",
+        "confirm_title": "Confirmer la Validation",
+        "confirm_message": "Êtes-vous sûr de vouloir valider vos informations professionnelles ? Cette action est irréversible."
+      },
+      "education": "Éducation",
+      "experience": "Expériences",
+      "skills": "Compétences",
+      "applications": "Candidatures Soumises"
+    }
+  },
+  "footer": {
+    "description": "est une plateforme de recrutement dédiée à simplifier le processus de candidature pour les candidats et les entreprises.",
+    "copyright": "©{new Date().getFullYear()} -",
+    "poweredBy": "Propulsé par",
+
+    "navigationLinks": {
+      "product": {
+        "title": "Produit",
+        "download": "Télécharger",
+        "pricing": "Tarification",
+        "locations": "Emplacements",
+        "servers": "Serveurs",
+        "countries": "Pays",
+        "blog": "Blog"
+      },
+      "engagement": {
+        "title": "Engagement",
+        "why": "Pourquoi est-ce une plateforme de recrutement ?",
+        "faq": "FAQ",
+        "tutorials": "Tutoriels",
+        "aboutUs": "À propos de nous",
+        "privacyPolicy": "Politique de confidentialité",
+        "termsOfUse": "Conditions d’utilisation"
+      },
+      "opportunities": {
+        "title": "Opportunités",
+        "affiliation": "Affiliation",
+        "becomePartner": "Devenir partenaire"
+      }
+    }
+  },
+  "profilePage": {
+    "header": {
+      "title": "Espace Candidat",
+      "subtitle": "Gérez les paramètres de votre compte."
+    },
+    "sidebar": {
+      "navItems": [
+        { "title": "Compte", "href": "/profile?section=compte" },
+        {
+          "title": "Mes Candidatures",
+          "href": "/profile?section=candidatures"
+        },
+        {
+          "title": "Informations Personnelles",
+          "href": "/profile?section=info-personnelles"
+        },
+        {
+          "title": "Qualifications et Expériences",
+          "href": "/profile?section=info-professionnelles"
+        }
+      ]
+    },
+    "sections": {
+      "compte": {
+        "title": "Compte",
+        "subtitle": "C'est ainsi que les autres vous verront sur le site.",
+        "form": {
+          "fields": {
+            "username": {
+              "label": "Nom d'utilisateur",
+              "placeholder": "shadcn",
+              "description": "C'est votre nom affiché publiquement. Il peut s'agir de votre vrai nom ou d'un pseudonyme."
+            },
+            "email": {
+              "label": "Email",
+              "placeholder": "Sélectionnez un email vérifié à afficher"
+            },
+            "bio": {
+              "label": "Bio",
+              "placeholder": "Parlez-nous un peu de vous",
+              "description": "Vous pouvez partager quelques informations sur vous-même, comme vos intérêts."
+            }
+          },
+          "button": {
+            "submit": "Mettre à jour le profil",
+            "loading": "Chargement..."
+          },
+          "messages": {
+            "success": "Profil mis à jour avec succès",
+            "error": "Quelque chose s'est mal passé, veuillez réessayer plus tard"
+          }
+        }
+      },
+      "candidatures": {
+        "title": "Mes candidatures",
+        "description": "Liste des candidatures que vous avez soumises pour des offres d'emploi.",
+        "tableHeaders": {
+          "id": "ID",
+          "grade": "Grade",
+          "etablissment": "Établissement",
+          "specialite": "Spécialité",
+          "recuCandidature": "Candidature reçue",
+          "dateLimiteDepot": "Date limite de dépôt",
+          "dateConcours": "Date du concours",
+          "lieuConcours": "Lieu du concours",
+          "statut": "Statut"
+        },
+        "statuses": {
+          "verification": "En cours de vérification",
+          "recevable": "Recevable",
+          "nonRecevable": "Non recevable"
+        },
+        "importantInfo": {
+          "title": "Informations importantes",
+          "verification": {
+            "title": "En cours de vérification:",
+            "description": "Votre dossier est en cours de vérification administrative pour garantir la conformité (diplôme, équivalence des diplômes étrangers, âge, etc.)."
+          },
+          "recevable": {
+            "title": "Recevable:",
+            "description": "Votre dossier a été accepté administrativement pour passer à l'étape suivante.",
+            "details": {
+              "teaching": "Pour les postes d'enseignant-chercheur : Votre dossier passe à l'évaluation académique par le jury du concours.",
+              "technical": "Pour les postes administratifs et techniques : Votre dossier passe aux examens écrits. Consultez les détails sur le portail public."
+            }
+          },
+          "nonRecevable": {
+            "title": "Non recevable:",
+            "description": "Votre dossier a été rejeté administrativement. Il peut être incomplet ou non conforme aux critères requis."
+          }
+        },
+        "noApplications": "Aucune candidature disponible pour le moment"
+      },
+      "info-personnelles": {
+        "title": "Informations Personnelles",
+        "description": "Consultez les informations personnelles que vous avez fournies."
+      },
+      "info-professionnelles": {
+        "title": "Qualifications et Expériences",
+        "description": "Consultez les qualifications académiques, expériences professionnelles et compétences que vous avez déjà soumises."
+      }
+    }
+  },
+  "steps": {
+    "title": "Les étapes pour postuler à une offre",
+    "subtitle": "Suivez ces étapes simples pour soumettre votre candidature et suivre son avancement en ligne."
+  },
+  "application": {
+    "noOfferSelected": "Aucun offre ou annonce sélectionnée.",
+    "city": "Ville :",
+    "department": "Département :",
+    "candidatesNumber": "Nombre de candidats demandés :",
+    "description": "Description :",
+    "personalInformation": "Informations Personnelles",
+    "qualificationsExperiences": "Qualifications/Expériences",
+    "modal": {
+      "title": "Veuillez compléter votre candidature",
+      "description": "Avant de postuler à une offre, veuillez remplir toutes vos informations et les valider.",
+      "continue": "Continuer"
+    }
+  }
+}

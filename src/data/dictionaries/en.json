@@ -1,0 +1,334 @@
+{
+  "login": {
+    "title": "Login",
+    "description": "Enter your credentials to access your account securely.",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "submitButton": {
+      "default": "Login",
+      "submitting": "Connecting..."
+    },
+    "forgotPassword": "Forgot your password?",
+    "noAccountText": "Don’t have an account?",
+    "registerLink": "Sign up"
+  },
+  "register": {
+    "title": "Registration",
+    "description": "Enter your email to receive a verification code.",
+    "username": "Username",
+    "email": "Email",
+    "submitButton": "Send verification code",
+    "error": "Error message",
+    "success": "Message displayed upon success",
+    "loginLink": "Already have an account ?"
+  },
+  "backToHome": "Back to website",
+  "buttons": {
+    "save": "Save",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "send": "Send",
+    "apply": "Apply",
+    "details": "Details",
+    "loading": "Loading...",
+    "validate": "Validate"
+  },
+  "resetPasswordPage": {
+    "title": "Reset Password",
+    "paragraph": "Enter your email to receive a reset link!",
+    "error": "Error message",
+    "success": "Message displayed upon success",
+    "emailPlaceholder": "Enter your email",
+    "submitButton": {
+      "default": "Send reset link",
+      "loading": "Sending..."
+    },
+    "successMessage": "A reset link has been sent to your email.",
+    "errorMessage": "Error sending reset link. Please try again.",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginLink": "Log in"
+  },
+  "updatePasswordForm": {
+    "pageTitle": "Reset Your Password",
+    "greetingMessage1": "Hello",
+    "greetingMessage2": ", Please reset your password to access your account.",
+    "passwordPlaceholder": "Enter new password",
+    "confirmPasswordPlaceholder": "Confirm your new password",
+    "submitButton": {
+      "default": "Update Password",
+      "loading": "Updating..."
+    },
+    "successMessage": "Your password has been successfully updated.",
+    "errorMessage": "Error updating password. Please try again."
+  },
+  "createPasswordForm": {
+    "pageTitle": "Create a Password",
+    "greetingMessage1": "Hello",
+    "greetingMessage2": ", please create a password for your account.",
+    "passwordPlaceholder": "Enter new password",
+    "confirmPasswordPlaceholder": "Confirm new password",
+    "submitButton": {
+      "default": "Create Password",
+      "loading": "Creating..."
+    },
+    "successMessage": "Password created successfully.",
+    "errorMessage": "Error creating the password. Please try again.",
+    "alreadyHaveAccountMessage": "Already have an account?",
+    "loginLinkText": "Log in"
+  },
+
+  "status": {
+    "draft": "Draft",
+    "submitted": "Submitted",
+    "accepted": "Accepted",
+    "rejected": "Rejected"
+  },
+  "notifications": {
+    "success": "The application has been successfully saved.",
+    "error": "An error occurred while processing the application."
+  },
+  "stepper": {
+    "next": "Next",
+    "previous": "Previous",
+    "continue": "Continue",
+    "back": "Back",
+    "submit": "Submit Data"
+  },
+  "userDropdown": {
+    "profile": "Profile",
+    "settings": "Settings",
+    "signOut": "Sign out"
+  },
+
+  "header": {
+    "Connexion": "Login"
+  },
+  "concours": {
+    "title": "Job Announcements",
+    "description": "Check out the latest job announcements and apply for opportunities that match your profile.",
+    "publishedOn": "Published on",
+    "deadline": "Apply before",
+    "details": "Details",
+    "apply": "Apply"
+  },
+  "hero": {
+    "title": "Welcome to the Recruitment Platform.",
+    "description": "A recruitment platform dedicated to Higher Education, Scientific Research, and Innovation.",
+    "button": "Get Started",
+    "videoText": "Video Tutorial: Posting a Job Offer",
+    "stats": {
+      "jobs": "Job Offers",
+      "candidates": "Candidates",
+      "interviews": "Scheduled Interviews"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Have questions or need assistance? Our team is here to help. Feel free to reach out using the form below or via the contact information provided.",
+    "detailsTitle": "Our Contact Information",
+    "address": "123 Enterprise Street, Paris, France",
+    "phone": "+33 1 23 45 67 89",
+    "email": "contact@yourwebsite.com",
+    "ctaTitle": "Stay Connected",
+    "ctaDescription": "Subscribe to our newsletter to receive updates and special offers directly in your inbox.",
+    "ctaButton": "Subscribe to Newsletter",
+    "form": {
+      "labels": {
+        "name": "Username",
+        "email": "Email Address",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "Enter your name",
+        "email": "Enter your email",
+        "message": "Enter your message"
+      },
+      "button": "Send"
+    }
+  },
+  "candidature": {
+    "title": "Application Portal",
+    "description": "Create your profile and apply for job offers that match your skills and experiences.",
+    "sections": {
+      "personalInfo": {
+        "title": "Personal Information",
+        "description": "Provide your personal information to complete your profile."
+      },
+      "InfoProfessionnelles": {
+        "title": "Professional Information",
+        "description": "Detail your work experience, skills, and qualifications.",
+        "important_information_title": "Important Information",
+        "important_information_message": "Provide all your qualifications, including languages, diplomas, and skills, to maximize your chances. Click Validate once done to confirm your information.",
+        "confirm_title": "Confirm Validation",
+        "confirm_message": "Are you sure you want to validate your professional information? This action cannot be undone."
+      },
+      "education": "Education",
+      "experience": "Work Experience",
+      "skills": "Skills",
+      "applications": "Submitted Applications"
+    },
+    "actions": {
+      "save": "Save",
+      "submit": "Submit",
+      "cancel": "Cancel"
+    },
+    "status": {
+      "draft": "Draft",
+      "submitted": "Submitted",
+      "accepted": "Accepted",
+      "rejected": "Rejected"
+    },
+    "notifications": {
+      "success": "The application has been saved successfully.",
+      "error": "An error occurred while processing the application."
+    }
+  },
+  "footer": {
+    "description": "is a recruitment platform dedicated to simplifying the application process for candidates and companies.",
+    "copyright": "©{new Date().getFullYear()} -",
+    "poweredBy": "Powered by Abdelaziz Kazoum",
+    "navigationLinks": {
+      "product": {
+        "title": "Product",
+        "download": "Download",
+        "pricing": "Pricing",
+        "locations": "Locations",
+        "servers": "Servers",
+        "countries": "Countries",
+        "blog": "Blog"
+      },
+      "engagement": {
+        "title": "Engagement",
+        "why": "Why is this a recruitment platform?",
+        "faq": "FAQ",
+        "tutorials": "Tutorials",
+        "aboutUs": "About Us",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfUse": "Terms of Use"
+      },
+      "opportunities": {
+        "title": "Opportunities",
+        "affiliation": "Affiliation",
+        "becomePartner": "Become a Partner"
+      }
+    }
+  },
+  "profilePage": {
+    "header": {
+      "title": "User Space",
+      "subtitle": "Manage your account settings."
+    },
+    "sidebar": {
+      "navItems": [
+        { "title": "Account", "href": "/profile?section=compte" },
+        { "title": "My Applications", "href": "/profile?section=candidatures" },
+        {
+          "title": "Personal Information",
+          "href": "/profile?section=info-personnelles"
+        },
+        {
+          "title": "Qualifications and Experiences",
+          "href": "/profile?section=info-professionnelles"
+        }
+      ]
+    },
+    "sections": {
+      "compte": {
+        "title": "Account",
+        "subtitle": "This is how others will see you on the site.",
+        "form": {
+          "fields": {
+            "username": {
+              "label": "Username",
+              "placeholder": "shadcn",
+              "description": "This is your publicly displayed name. It can be your real name or a nickname."
+            },
+            "email": {
+              "label": "Email",
+              "placeholder": "Select a verified email to display"
+            },
+            "bio": {
+              "label": "Bio",
+              "placeholder": "Tell us a little about yourself",
+              "description": "You can share some information about yourself, like your interests."
+            }
+          },
+          "button": {
+            "submit": "Update Profile",
+            "loading": "Loading..."
+          },
+          "messages": {
+            "success": "Profile successfully updated",
+            "error": "Something went wrong, please try again later"
+          }
+        }
+      },
+      "candidatures": {
+        "title": "My Applications",
+        "description": "A list of job applications you have submitted.",
+        "tableHeaders": {
+          "id": "ID",
+          "grade": "Grade",
+          "etablissment": "Institution",
+          "specialite": "Specialization",
+          "recuCandidature": "Application Received",
+          "dateLimiteDepot": "Submission Deadline",
+          "dateConcours": "Competition Date",
+          "lieuConcours": "Competition Venue",
+          "statut": "Status"
+        },
+        "statuses": {
+          "verification": "Under Review",
+          "recevable": "Accepted",
+          "nonRecevable": "Rejected"
+        },
+        "importantInfo": {
+          "title": "Important Information",
+          "verification": {
+            "title": "Under Review:",
+            "description": "Your application is under administrative review to ensure compliance with requirements (degree, foreign degree equivalence, age, etc.)."
+          },
+          "recevable": {
+            "title": "Accepted:",
+            "description": "Your application has been administratively accepted to proceed to the first stage.",
+            "details": {
+              "teaching": "For teaching positions: Your application proceeds to academic evaluation by the competition jury.",
+              "technical": "For administrative and technical positions: Your application proceeds to written exams. Check details on the public employment portal."
+            }
+          },
+          "nonRecevable": {
+            "title": "Rejected:",
+            "description": "Your application was administratively rejected due to incompleteness or not meeting the required criteria."
+          }
+        },
+        "noApplications": "No applications available now"
+      },
+      "info-personnelles": {
+        "title": "Personal Information",
+        "description": "View the personal details you have provided."
+      },
+      "info-professionnelles": {
+        "title": "Qualifications and Experiences",
+        "description": "Review the academic qualifications, professional experiences, and skills you have previously submitted."
+      }
+    }
+  },
+  "steps": {
+    "title": "Steps to Apply for a Job",
+    "subtitle": "Follow these simple steps to submit your application and track its progress online."
+  },
+  "application": {
+    "noOfferSelected": "No offer or announcement selected.",
+    "city": "City:",
+    "department": "Department:",
+    "candidatesNumber": "Number of candidates required:",
+    "description": "Description:",
+    "personalInformation": "Personal Information",
+    "qualificationsExperiences": "Qualifications/Experiences",
+    "modal": {
+      "title": "Please complete your application",
+      "description": "Before applying for a job, please fill in all your information and validate them.",
+      "continue": "Continue"
+    }
+  }
+}
