@@ -12,7 +12,6 @@ import React from "react";
 const File = ({
   field,
   control,
-  setValue,
 }: {
   field: any;
   control: any;
@@ -32,7 +31,7 @@ const File = ({
               placeholder={field.placeholder}
               onChange={(e) => {
                 // setValue(field.name, e.target.files);
-                el.onChange(e.target.files);
+                el.onChange(e.target.files[0]);
               }}
             />
           </FormControl>

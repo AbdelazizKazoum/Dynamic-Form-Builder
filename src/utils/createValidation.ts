@@ -31,14 +31,14 @@ export const createValidationSchema = (fields: typeof formSchema.fields) => {
         break;
       case "file":
         validator = z
-          .instanceof(FileList)
-          .refine((files) => files.length > 0, "File is required")
+          .instanceof(File)
+          .refine((file) => file, "File is required")
           .refine(
-            (files) => files[0]?.size <= field.validation.maxSize,
+            (file) => file.size <= field.validation.maxSize,
             "File must be less than 5MB"
           )
           .refine(
-            (files) => field.validation.fileType.includes(files[0]?.type),
+            (file) => field.validation.fileType.includes(file?.type),
             "Invalid file type"
           );
         break;
