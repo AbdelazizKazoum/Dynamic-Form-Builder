@@ -9,7 +9,7 @@ import {
 import { Input } from "@/components/ui/input";
 import React from "react";
 
-const File = ({
+const FileInput = ({
   field,
   control,
 }: {
@@ -42,4 +42,4 @@ const File = ({
   );
 };
 
-export default File;
+export default FileInput;
