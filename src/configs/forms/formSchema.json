@@ -1,6 +1,50 @@
 {
   "fields": [
     {
+      "type": "object",
+      "name": "address",
+      "label": "Address Details",
+      "fields": [
+        {
+          "type": "text",
+          "name": "street",
+          "label": "Street",
+          "placeholder": "Enter your street address",
+          "required": true,
+          "validation": {
+            "required": true,
+            "minLength": 3,
+            "maxLength": 50
+          }
+        },
+        {
+          "type": "text",
+          "name": "city",
+          "label": "City",
+          "placeholder": "Enter your city",
+          "required": true,
+          "validation": {
+            "required": true,
+            "minLength": 3,
+            "maxLength": 50
+          }
+        },
+        {
+          "type": "text",
+          "name": "zipCode",
+          "label": "Zip Code",
+          "placeholder": "Enter your zip code",
+          "required": false,
+          "validation": {
+            "required": true,
+            "minLength": 3,
+            "maxLength": 50
+          }
+        }
+      ]
+    },
+
+    {
       "name": "fullName",
       "label": "Full Name",
       "type": "text",

@@ -31,7 +31,7 @@ const FileInput = ({
               placeholder={field.placeholder}
               onChange={(e) => {
                 // setValue(field.name, e.target.files);
-                el.onChange(e.target.files[0]);
+                el.onChange(e.target?.files ? e.target.files[0] : null);
               }}
             />
           </FormControl>

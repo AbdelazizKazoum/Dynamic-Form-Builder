@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -33,41 +32,61 @@ export function CandidatureForm() {
           {formSchema.fields.map((field, index) => {
             if (field.dependsOn && !form.watch(field.dependsOn)) return null;
 
-            if (field.type === "file") {
+            if (field.type === "object" && field.fields) {
               return (
-                <div key={index} className="w-full">
-                  <FileInput
-                    control={form.control}
-                    field={field}
-                    setValue={form.setValue}
-                  />
-                </div>
-              );
-            }
-
-            if (field.type === "select") {
-              return (
-                <div key={index} className="w-full">
-                  <SelectInput
-                    control={form.control}
-                    field={field}
-                    options={field.options}
-                  />
-                </div>
-              );
-            }
-
-            if (field.type === "checkbox") {
-              return (
-                <div key={index} className="w-full">
-                  <CheckBox control={form.control} field={field} />
-                </div>
+                <fieldset
+                  key={index}
+                  className="col-span-1 md:col-span-2 border p-4 rounded-lg"
+                >
+                  <legend className="text-lg font-semibold mb-2">
+                    {field.label}
+                  </legend>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {field.fields.map((subField, subIndex) => (
+                      <div key={subIndex} className="w-full">
+                        {subField.type === "file" ? (
+                          <FileInput
+                            control={form.control}
+                            field={subField}
+                            setValue={form.setValue}
+                          />
+                        ) : subField.type === "checkbox" ? (
+                          <CheckBox control={form.control} field={subField} />
+                        ) : subField.type === "select" ? (
+                          <SelectInput
+                            control={form.control}
+                            field={subField}
+                            options={field.options}
+                          />
+                        ) : (
+                          <TextInput control={form.control} field={subField} />
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </fieldset>
               );
             }
 
             return (
               <div key={index} className="w-full">
-                <TextInput control={form.control} field={field} />
+                {field.type === "file" ? (
+                  <FileInput
+                    control={form.control}
+                    field={field}
+                    setValue={form.setValue}
+                  />
+                ) : field.type === "checkbox" ? (
+                  <CheckBox control={form.control} field={field} />
+                ) : field.type === "select" ? (
+                  <SelectInput
+                    field={field}
+                    control={form.control}
+                    options={field.options}
+                  />
+                ) : (
+                  <TextInput control={form.control} field={field} />
+                )}
               </div>
             );
           })}

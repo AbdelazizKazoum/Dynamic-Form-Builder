@@ -13,6 +13,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import api from "@/lib/api";
 import React, { useEffect, useState } from "react";
 
 const SelectInput = ({
@@ -29,6 +30,14 @@ const SelectInput = ({
   useEffect(() => {
     if (field.apiUrl) {
       console.log("🚀 ~ useEffect ~ field.apiUrl:", field.apiUrl);
+      (async () => {
+        try {
+          const res = await api.get(`/${field.apiUrl}`);
+          setItems(res.data);
+        } catch (error) {
+          console.log(error);
+        }
+      })();
     }
   }, [field.apiUrl]);
 
@@ -54,7 +63,6 @@ const SelectInput = ({
               ))}
             </SelectContent>
           </Select>
-
           <FormMessage />
         </FormItem>
       )}
