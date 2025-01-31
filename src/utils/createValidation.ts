@@ -10,6 +10,7 @@ export const createValidationSchema = (fields: typeof formSchema.fields) => {
       case "text":
       case "email":
       case "password":
+      case "select":
         validator = z.string();
         if (field.validation?.required)
           validator = validator.min(1, "Required");
